@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-lines"></div> <!-- Добавлено для линий -->
+    <div class="background-stripes"></div> <!-- Добавлено для зебровых полосок -->
+    <div class="background-circle circle1"></div>
+    <div class="background-circle circle2"></div>
+    <div class="background-circle circle3"></div>
+
+    <div class="error-container">
+        <h1>Error</h1>
+        <div class="error-message">An error occurred. Please try again.</div>
+        <button onclick="goBack()">Go Back</button>
+    </div>
+
+    <script>
+        // Функция для возврата на предыдущую страницу
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
